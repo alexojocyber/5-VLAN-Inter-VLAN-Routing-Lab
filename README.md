@@ -228,6 +228,35 @@ The issues were resolved by verifying trunk links and checking STP forwarding st
 - Network troubleshooting
 - Cisco CLI configuration
 
+## Skills Gained
+
+Through this project, I gained hands-on experience in:
+
+- Creating and managing VLANs in Cisco Packet Tracer
+- Configuring inter-VLAN routing using Router-on-a-Stick
+- Configuring IEEE 802.1Q trunk links between switches and routers
+- Designing IP addressing schemes and subnetting networks
+- Assigning access ports to different VLANs
+- Verifying network connectivity using ping tests
+- Troubleshooting VLAN and trunking issues
+- Understanding Spanning Tree Protocol (STP) behavior
+- Using Cisco IOS commands for network configuration
+- Documenting and organizing networking projects on GitHub
+- Using Git and GitHub for version control
+- Resolving merge conflicts and managing repositories
+
+## Key Commands Used
+
+```bash
+show vlan brief
+show interfaces trunk
+show ip interface brief
+show running-config
+show spanning-tree
+interface GigabitEthernet0/0.10
+encapsulation dot1Q 10
+ip address 192.168.50.1 255.255.255.192
+```
 ---
 
 Created by Alex Ojo
