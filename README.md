@@ -1,4 +1,3 @@
->>>>>>> main
 # 5-VLAN Inter-VLAN Routing Lab
 
 ## Overview
